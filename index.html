@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shiwani's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.8/themes/odometer-theme-default.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.8/odometer.min.js"></script>
+
+
+  </head>
+  <body>
+    <div class="nav-controls">
+      <div class="hamburger" id="hamburger">&#9776;</div>
+      <button id="themeToggle">🌞</button>
+    </div>
+
+    <!-- Navigation -->
+    <header>
+      <nav class="navbar">
+        <ul class="nav-links desktop-nav">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#courses">Courses</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <header class="main-heading">
+        <h1>Welcome to Shiwani's Webpage</h1>
+      </header>
+    </header>
+
+    <!-- Sidebar -->
+    <div id="sidebar" class="sidebar">
+      <div class="close-btn" id="closeBtn">&times;</div>
+      <ul>
+        <li><a href="#about" onclick="closeSidebar()">About</a></li>
+        <li><a href="#projects" onclick="closeSidebar()">Projects</a></li>
+        <li><a href="#courses" onclick="closeSidebar()">Courses</a></li>
+        <li><a href="#skills" onclick="closeSidebar()">Skills</a></li>
+        <li><a href="#contact" onclick="closeSidebar()">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Sections -->
+
+    <section id="about" class="section">
+      <h2 class="hello">Hello, I'm Shiwani!</h2>
+
+      <div class="about-photo"></div>
+
+      <h2 class="hello">About</h2>
+      <div class="speech-bubble">
+        <p>
+          I’m a second-year Chemical Engineering student at IIT Bombay. I’m
+          passionate about web development and competitive programming. I also
+          enjoy playing chess in my free time.
+        </p>
+      </div>
+    </section>
+<section id="projects" class="section">
+  <h2>Projects</h2>
+
+  <div class="project-div">
+
+    <!-- Project 1 -->
+    <div class="project-item">
+      <div class="about-photo1"></div>
+      <div class="speech-bubble">
+        <h3>Vision Project (flag event of Design club)</h3>
+        <p>I participated in Vision, the flagship event of the Design Club at IIT Bombay, where I worked on “Tales of Origin” to design a logo representing my city. This project helped me explore visual storytelling and enhance my skills in Figma, Adobe Illustrator, and Photoshop.</p>
+      </div>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="project-item">
+      <div class="about-photo2"></div>
+      <div class="speech-bubble">
+        <h3>Maker Space Lab</h3>
+<p>I collaborated with a team of five members in the Makerspace Lab to build a drone project. During this project, I gained hands-on experience with Arduino programming, PCB soldering, and 3D printing, while also learning the importance of teamwork and collaboration in a technical environment.</p>
+      </div>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="project-item">
+      <div class="about-photo3"></div>
+      <div class="speech-bubble">
+        <h3>Summer Of Science</h3>
+<p>I participated in Summer of Science, organized by the Math and Physics Club, where I worked on an<b>AI/ML</b> project. Through this experience, I learned and applied various Python libraries (such as NumPy, Pandas, and Scikit-learn) and explored key machine learning concepts and techniques, which helped me strengthen my programming and analytical skills.</p>
+      </div>
+    </div>
+
+    <!-- Project 4 -->
+    <div class="project-item">
+      <div class="about-photo4"></div>
+      <div class="speech-bubble">
+        <h3>Summer Of Coding</h3>
+        <p>I participated in Summer of Coding, organized by the WNCC Club, where I worked on 3D web development using Three.js. As part of this project, I learned to create <b>interactive 3D web development by three.js </b> with the help of React, HTML, and CSS, which improved both my frontend development and creative coding skills.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+      
+      
+
+      
+    </section>
+    <section id="courses" class="section timeline">
+      <h2>Courses</h2>
+     <div class="timeline-item left">
+    <div class="timeline-content">
+      <h3>CS101 </h3>
+      <p>I deepened my knowledge of C++ through CS101 at IIT Bombay. Building on this foundation, I started solving problems on LeetCode  </p>
+    </div>
+  </div>
+
+  <!-- Item 2 -->
+  <div class="timeline-item right">
+    <div class="timeline-content">
+      <h3>MA105 & MA110</h3>
+      <p>In my first year, I studied MA105 (Calculus) and MA110 (Linear Algebra), where I gained a strong foundation in concepts such as limits, differentiation, integration, matrices, vector spaces, and eigenvalues, which improved my analytical and problem-solving skills..</p>
+    </div>
+  </div>
+
+  <!-- Item 3 -->
+  <div class="timeline-item left">
+    <div class="timeline-content">
+      <h3>MS101</h3>
+      <p>In MS101 (Introduction to Electrical Systems), I learned the fundamentals of electrical analog circuits along with hands-on lab sessions. As part of the lab, I worked on projects such as building a drone and a joystick, which helped me apply theoretical concepts to practical systems.</p>
+    </div>
+  </div>
+    </section>
+    <section id="skills" class="section Skills">
+
+
+      
+      <h2> My Skills</h2>
+ 
+  <div class="skills-grid">
+    <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML"></div>
+    <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS"></div>
+    <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript"></div>
+    <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++"></div>
+    <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python"></div>
+  </div>
+    
+    </section>
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <div class="social-icons">
+  <a href="https://linkedin.com/in/shiwani-kishor-" target="_blank"><i class="fab fa-linkedin"></i></a>
+  <a href="https://www.instagram.com/shiwani.16?igsh=MTN2dnY3dDQxbDZqbQ==" target="_blank"><i class="fab fa-instagram"></i></a>
+  <a href="https://github.com/Shiwani123693" target="_blank"><i class="fab fa-github"></i></a>
+  
+</div>
+
+<div class="visitor-counter">
+  <h3>Unique Visitors</h3>
+  <div id="visitorCount" class="odometer">0</div>
+</div>
+
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Shiwani <p>&#x1F49C;  <!-- 💜 Purple Heart --> </p></p>
+    </footer>
+
+    <!-- JS -->
+    <script>
+      const hamburger = document.getElementById("hamburger");
+      const sidebar = document.getElementById("sidebar");
+      const closeBtn = document.getElementById("closeBtn");
+      const themeToggle = document.getElementById("themeToggle");
+
+      hamburger.addEventListener("click", () => {
+        sidebar.classList.add("show");
+      });
+
+      closeBtn.addEventListener("click", () => {
+        sidebar.classList.remove("show");
+      });
+
+      function closeSidebar() {
+        sidebar.classList.remove("show");
+      }
+
+      themeToggle.addEventListener("click", () => {
+        const isDark = document.body.getAttribute("data-theme") === "dark";
+        if (isDark) {
+          document.body.removeAttribute("data-theme");
+          themeToggle.textContent = "🌞";
+        } else {
+          document.body.setAttribute("data-theme", "dark");
+          themeToggle.textContent = "🌙";
+        }
+      });
+    </script>
+    <script>
+  // Replace with your custom namespace/key
+  const counterUrl = "https://api.countapi.xyz/hit/myportfolio.com/visits";
+
+  fetch(counterUrl)
+    .then(res => res.json())
+    .then(data => {
+      document.getElementById("visitorCount").innerHTML = data.value;
+    });
+</script>
+
+
+  </body>
+</html>
